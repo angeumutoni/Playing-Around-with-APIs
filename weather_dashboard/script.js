@@ -29,15 +29,12 @@ async function getWeather() {
 function displayWeather(data) {
     const resultDiv = document.getElementById('weather-result');
     resultDiv.innerHTML = `
+        <br>
         <h2>${data.name}, ${data.sys.country}</h2>
         <br>
-        <br>
         <p>Temperature: ${data.main.temp}°C</p>
-        <br>
         <p>Humidity: ${data.main.humidity}%</p>
-        <br>
         <p>Wind Speed: ${data.wind.speed} m/s</p>
-        <br>
         <p>Weather: ${data.weather[0].description}</p>
     `;
 }
