@@ -1,4 +1,4 @@
-const apiKey = '194d40f6e033f574606aa6ace66920c6'; // Replace with your API key
+const apiKey = '194d40f6e033f574606aa6ace66920c6'; // Using the API keys I got from openweathermap.org
 
 // Set background when the page loads
 document.addEventListener("DOMContentLoaded", () => {
