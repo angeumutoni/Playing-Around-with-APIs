@@ -1,4 +1,4 @@
-const apiKey = '194d40f6e033f574606aa6ace66920c6';
+const apiKey = '194d40f6e033f574606aa6ace66920c6'; // Using the API Key I got from https://openweathermap.org/
 
 async function getWeather() {
     const searchInput = document.getElementById('search').value;
@@ -30,5 +30,5 @@ function displayWeather(data) {
         <p>Wind Speed: ${data.wind.speed} m/s</p>
         <p>Weather: ${data.weather[0].description}</p>
     `;
+    document.body.style.background = "linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d)"; // Dark blue-violet gradient
 }
-
