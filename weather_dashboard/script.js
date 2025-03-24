@@ -1,5 +1,5 @@
-const apiKey = '194d40f6e033f574606aa6ace66920c6'; // Using the API Key I got from https://openweathermap.org/
-const timeApiKey = 'ZX3+mpSmp00Txa7A6MKh0g==j4BPGkcEeTI1gy6O'; // Using the API Key I got from https://www.api-ninjas.com/
+const apiKey = '194d40f6e033f574606aa6ace66920c6'; // Replace with your API key
+const timeApiKey = 'ZX3+mpSmp00Txa7A6MKh0g==j4BPGkcEeTI1gy6O'; // API-Ninjas API Key
 
 // Set background when the page loads
 document.addEventListener("DOMContentLoaded", () => {
