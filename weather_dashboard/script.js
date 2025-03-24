@@ -14,7 +14,7 @@ async function getWeather() {
     }
 
     const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${searchInput}&appid=${apiKey}&units=metric`;
-    const timeUrl = `https://api.api-ninjas.com/v1/worldtime?city=${searchInput}`;
+    const timeUrl = `https://api-ninjas.com/v1/worldtime?city=${searchInput}`;
 
     try {
         const [weatherResponse, timeResponse] = await Promise.all([
