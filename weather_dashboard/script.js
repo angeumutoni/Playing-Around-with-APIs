@@ -33,7 +33,7 @@ function displayWeather(weatherData) {
     
     resultDiv.innerHTML = `
         <br>
-        <h2>Currently In, ${weatherData.name}, ${weatherData.sys.country}:</h2>
+        <h2>Currently in ${weatherData.name}, ${weatherData.sys.country}:</h2>
         <br>
         <p><b>Temperature:</b> ${weatherData.main.temp}°C</p>
         <p><b>Humidity:</b> ${weatherData.main.humidity}%</p>
