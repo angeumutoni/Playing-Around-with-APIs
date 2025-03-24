@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 async function getWeather() {
     const searchInput = document.getElementById('search').value;
     if (!searchInput) {
-        alert('Please enter a city, ZIP code, or coordinates.');
+        alert('Please enter a city name.');
         return;
     }
 
