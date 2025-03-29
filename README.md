@@ -2,7 +2,7 @@ This project is a Weather Dashboard that allows users to search for weather info
 
 The application fetches real-time weather data using the OpenWeatherMap API. It is deployed on two web servers with a load balancer (HAProxy) distributing traffic evenly between them.
 
-🎥 Link to demo video:
+🎥 Link to demo video: https://bit.ly/weatherappdemo
 
 1. How the application runs locally:
      Prerequisites: web browser, code editor, web servers.
